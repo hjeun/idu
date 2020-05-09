@@ -27,6 +27,9 @@ This is official implementation of IDU. IDU aims to
 ## Training
 The code for training is not included in this repository, and we cannot release the full training code for
 
+### Datasets
+We provide extracted features on RGB and Flow.
+
 ### Trained Models
 Download trained models on [THUMOS-14](https://drive.google.com/uc?export=download&confirm=8b-Z&id=1DUpOzbLG-8ptpPVJrzsRiKFRIaO1FBcs) and [TVSeries](https://drive.google.com/uc?export=download&confirm=A33G&id=1zJ7EfhQg91XVrV9ryjvmcoyQDEl3U_Fn) in 'dataset name'/logs/'.
 
