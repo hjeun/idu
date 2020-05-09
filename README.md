@@ -44,13 +44,13 @@ Download our trained models here and locate in 'dataset name'/logs/'.
 
 __For TVSeries__  
 ```
-python tvseries/test_idu.py
+python tvseries/test.py --feat_type incepv3
 ```
 The code provides the results of our IDN, '__mcAP of 86.1%__'.  
 
 __For THUMOS-14__  
 ```
-python thumos14/test_idu.py
+python thumos14/test.py --feat_type incepv3
 ```
 The code provides the results of our IDN, '__mAP of 60.3%__'.  
 
