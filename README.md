@@ -9,18 +9,17 @@ This is official implementation of IDU. IDU aims to
 ## Updates
 **30 May, 2020**: Initial update
 
-## Prerequisites
+## Installation
+
+### Prerequisites
 - Ubuntu 16.04  
 - Python 3.6.8   
 - CUDA 10.0  
 - cuDNN 7.5
 
-## Requirements
-- Tensorflow==1.13.1  
+### Requirements
+- tensorflow==1.13.1  
 - scipy==1.3.0  
-```
-pip install -r requirements.txt
-```
 
 ## Training
 The code for training is not included in this repository, and we cannot release the full training code for IP reason.
