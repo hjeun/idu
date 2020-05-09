@@ -1,6 +1,8 @@
 # Information Discrimination Units (IDU)
 **Learning to Discriminate Information for Online Action Detection**
+
 Hyunjun Eun, Jinyoung Moon, Jongyoul Park, Chanho Jung, Changick Kim
+
 [[`arXiv`](https://arxiv.org/abs/1912.04461)]
 
 ## Citing IDU
