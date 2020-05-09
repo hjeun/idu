@@ -37,14 +37,12 @@ __For THUMOS-14__
 python thumos14/test_tfn.py --model_name TFN-ED
 ```
 The code provides the results of TFN-ED, '__mAP of 55.7%__'.  
-An AP value for each class are also provided, as reported in our supplementary material.
 
 __For TVSeries__  
 ```
 python tvseries/test_tfn.py --model_name TFN-ED
 ```
 The code provides the results of TFN-ED, '__mcAP of 85.0%__'.  
-A cAP value for each class are also provided, as reported in our supplementary material.
 
 ## Citing IDU
 Please cite our paper in your publications if it helps your research:
