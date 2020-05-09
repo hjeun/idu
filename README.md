@@ -45,12 +45,14 @@ Download our trained models here and locate in '{dataset name}'/models/'.
 __For TVSeries__  
 ```
 python tvseries/test.py --feat_type incepv3
+python tvseries/test.py --feat_type anet2016
 ```
 The code provides the results of our IDN, '__mcAP of 86.1%__'.  
 
 __For THUMOS-14__  
 ```
 python thumos14/test.py --feat_type incepv3
+python thumos14/test.py --feat_type anet2016
 ```
 The code provides the results of our IDN, '__mAP of 60.3%__'.  
 
