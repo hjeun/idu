@@ -5,7 +5,7 @@ Hyunjun Eun, Jinyoung Moon, Jongyoul Park, Chanho Jung, Changick Kim
 
 ## Introduction
 <div align="center">
-  <img src="https://drive.google.com/file/d/1Mnkq2Mj0VeQvdEcxd-OQkFRFJ_rtk1E1/view?usp=sharing" width="700px" />
+  <img src="https://drive.google.com/open?id=1Mnkq2Mj0VeQvdEcxd-OQkFRFJ_rtk1E1" width="700px" />
 </div>
 This is official implementation of IDU. IDU aims to 
 
