@@ -12,7 +12,7 @@ extends GRU with a mechanism utilizing current information and an early embeddin
 on two benchmark datasets, where our IDN achieves stateof-the-art performances of 86.1% mcAP and 60.3% mAP on TVSeries and THUMOS-14, respectively.
 
 ## Updates
-**30 May, 2020**: Initial update
+**30 May, 2020**: Initial commit
 
 ## Installation
 
