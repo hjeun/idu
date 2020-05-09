@@ -27,8 +27,8 @@ This is official implementation of Information Discrimintation Units (IDU). For 
 
 ### Patches
 We provide three patch files in the 'patch' folder. Replace original files in tensorflow to these files. Each folder name in the 'patch' folder describes the directory for files included in it.
-- tessorflow/
-- tensorflow/
+- __init__.py in 'tensorflow/_api/v1/keras/layers'
+- __init__.py and recurrent.py in 'tensorflow/python/keras/layers'
 
 ## Training
 The code for training is not included in this repository, and we cannot release the full training code since the research is involved in the project.
