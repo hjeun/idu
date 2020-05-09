@@ -22,7 +22,7 @@ This is official implementation of IDU. IDU aims to
 - scipy==1.3.0  
 
 ## Training
-The code for training is not included in this repository, and we cannot release the full training code for IP reason.
+The code for training is not included in this repository, and we cannot release the full training code for
 
 ### Trained Models
 Download trained models on [THUMOS-14](https://drive.google.com/uc?export=download&confirm=8b-Z&id=1DUpOzbLG-8ptpPVJrzsRiKFRIaO1FBcs) and [TVSeries](https://drive.google.com/uc?export=download&confirm=A33G&id=1zJ7EfhQg91XVrV9ryjvmcoyQDEl3U_Fn) in 'dataset name'/logs/'.
