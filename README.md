@@ -39,17 +39,18 @@ Download trained models on [THUMOS-14](https://drive.google.com/uc?export=downlo
 
 ## Testing
 
-__For THUMOS-14__  
-```
-python thumos14/test_idu.py --model_name TFN-ED
-```
-The code provides the results of our IDN, '__mAP of 55.7%__'.  
-
 __For TVSeries__  
 ```
-python tvseries/test_idu.py --model_name TFN-ED
+python tvseries/test_idu.py
 ```
-The code provides the results of our IDN, '__mcAP of 85.0%__'.  
+The code provides the results of our IDN, '__mcAP of 86.1%__'.  
+
+__For THUMOS-14__  
+```
+python thumos14/test_idu.py
+```
+The code provides the results of our IDN, '__mAP of 60.3%__'.  
+
 
 ## Citing IDU
 Please cite our paper in your publications if it helps your research:
