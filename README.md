@@ -4,6 +4,9 @@ Hyunjun Eun, Jinyoung Moon, Jongyoul Park, Chanho Jung, Changick Kim
 [[`arXiv`](https://arxiv.org/abs/1912.04461)]
 
 ## Introduction
+<div align="center">
+  <img src="https://drive.google.com/file/d/1aWvc9-IG-Yq9EvUcvn8n2EqLIFJqhh4n/view?usp=sharing" width="700px" />
+</div>
 This is official implementation of IDU. IDU aims to 
 
 ## Updates
