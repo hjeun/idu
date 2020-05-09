@@ -1,5 +1,5 @@
 # Information Discrimination Units (IDU)
-***Learning to Discriminate Information for Online Action Detection, CVPR2020***  
+**Learning to Discriminate Information for Online Action Detection, CVPR2020**  
 Hyunjun Eun, Jinyoung Moon, Jongyoul Park, Chanho Jung, Changick Kim  
 [[`arXiv`](https://arxiv.org/abs/1912.04461)]
 
