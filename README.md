@@ -7,7 +7,7 @@ Hyunjun Eun, Jinyoung Moon, Jongyoul Park, Chanho Jung, Changick Kim
 <div align="center">
   <img src="figures/framework.png" width="1000px" />
 </div>
-This is official implementation of IDU. For online action detectoin, we investigate on the question of "how RNNs can learn to explicitly discriminate relevant information from irrelevant information for detecting actions in the present". To this end, we propose a novel recurrent unit that extends GRU with a mechanism utilizing current information and an early embedding module. We perform extensive experiments on two benchmark datasets, where our IDN achieves stateof-the-art performances of 86.1% mcAP and 60.3% mAP on TVSeries and THUMOS-14, respectively.
+This is official implementation of IDU. For online action detectoin, we investigate on the question of "how RNNs can learn to explicitly discriminate relevant information from irrelevant information for detecting actions in the present". To this end, we propose a novel recurrent unit that extends GRU with a mechanism utilizing current information and an early embedding module. We perform extensive experiments on two benchmark datasets, where our IDN achieves stateof-the-art performances of 86.1% mcAP and 60.3% mAP on [TVSeries](https://homes.esat.kuleuven.be/psi-archive/rdegeest/TVSeries.html) and [THUMOS-14](https://www.crcv.ucf.edu/THUMOS14/), respectively.
 
 ## Updates
 **30 May, 2020**: Initial commit
@@ -30,8 +30,7 @@ This is official implementation of IDU. For online action detectoin, we investig
 The code for training is not included in this repository, and we cannot release the full training code for
 
 ### Datasets
-Download our extracted features on RGB and Flow on both TVSeries and THUMOS-14. On both datasets, we extract video frames at 24
-fps and set the number of frames in each chunk N to 6. We use 16 chunks (i.e., T=15), which are 4 seconds long, for the input of IDN. We use a two-stream network as a features extractor. In the two-stream network, one stream encodes appearance information by taking the center frame of a chunk as input, while another stream encodes motion information by processing an optical flow stack computed from an input chunk. Among several two-stream networks, we employ the [TSN models(https://github.com/yjxiong/anet2016-cuhk)] pretrained on the ActivityNet-v1.3 and Kinetics datasets.
+Download our extracted features on RGB and Flow on both [TVSeries](https://homes.esat.kuleuven.be/psi-archive/rdegeest/TVSeries.html) and [THUMOS-14](https://www.crcv.ucf.edu/THUMOS14/). On both datasets, we extract video frames at 24 fps and set the number of frames in each chunk N to 6. We use 16 chunks (i.e., T=15), which are 4 seconds long, for the input of IDN. We use a two-stream network as a features extractor. In the two-stream network, one stream encodes appearance information by taking the center frame of a chunk as input, while another stream encodes motion information by processing an optical flow stack computed from an input chunk. Among several two-stream networks, we employ the [TSN models](https://github.com/yjxiong/anet2016-cuhk) pretrained on the ActivityNet-v1.3 and Kinetics datasets.
 
 
 ### Trained Models
