@@ -54,7 +54,16 @@ __For THUMOS-14__
 python thumos14/test.py --feat_type incepv3
 python thumos14/test.py --feat_type anet2016
 ```
-The code provides the results of our IDN, '__mAP of 60.3%__'.  
+The code provides the results of our IDN, '__mAP of 60.3%__'. 
+
+| Dataset | Feature | mcAP (mAP) | 
+|:--------------:|:--------------:|:--------------:| 
+| C3D |    ResNet18   |    112\*112   |
+| C3D |    ResNet34   |    112\*112   |
+| ARTNet (s) |    ResNet18   |    112\*112   |
+| ARTNet (d) |    ResNet18   |    112\*112   |
+| ARTNet+TSN |    ResNet18   |    112\*112   |
+
 
 
 ## Citing IDU
