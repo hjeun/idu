@@ -5,8 +5,11 @@ Hyunjun Eun, Jinyoung Moon, Jongyoul Park, Chanho Jung, Changick Kim
 
 [[`arXiv`](https://arxiv.org/abs/1912.04461)]
 
-## Description
+## Introduction
 This is official implementation of IDU. IDU aims to 
+
+## Updates
+**30 May, 2020**: Initial update
 
 ## Prerequisites
 - Ubuntu 16.04  
