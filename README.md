@@ -7,6 +7,7 @@ Hyunjun Eun, Jinyoung Moon, Jongyoul Park, Chanho Jung, Changick Kim
 <div align="center">
   <img src="figures/framework.png" width="1000px" />
 </div>
+
 This is official implementation of IDU. For online action detectoin, we investigate on the question of "how RNNs can learn to explicitly discriminate relevant information from irrelevant information for detecting actions in the present". To this end, we propose a novel recurrent unit that extends GRU with a mechanism utilizing current information and an early embedding module. We perform extensive experiments on two benchmark datasets, where our IDN achieves stateof-the-art performances of 86.1% mcAP and 60.3% mAP on [TVSeries](https://homes.esat.kuleuven.be/psi-archive/rdegeest/TVSeries.html) and [THUMOS-14(https://www.crcv.ucf.edu/THUMOS14/)], respectively.
 
 ## Updates
