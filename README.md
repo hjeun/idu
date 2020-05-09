@@ -35,7 +35,7 @@ Download our extracted features on both [TVSeries](https://homes.esat.kuleuven.b
 
 
 ### Trained Models
-Download trained models on [THUMOS-14](https://drive.google.com/uc?export=download&confirm=8b-Z&id=1DUpOzbLG-8ptpPVJrzsRiKFRIaO1FBcs) and [TVSeries](https://drive.google.com/uc?export=download&confirm=A33G&id=1zJ7EfhQg91XVrV9ryjvmcoyQDEl3U_Fn) in 'dataset name'/logs/'.
+Download our trained models here and locate in 'dataset name'/logs/'.
 
 ## Testing
 
