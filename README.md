@@ -28,9 +28,9 @@ pip install -r requirements.txt
 The code for training is not included in this repository, and we cannot release the full training code for IP reason.
 
 ### Trained Models
-<a href="https://drive.google.com/uc?export=download&confirm=8b-Z&id=1DUpOzbLG-8ptpPVJrzsRiKFRIaO1FBcs">THUMOS-14</a>  
-<a href="https://drive.google.com/uc?export=download&confirm=A33G&id=1zJ7EfhQg91XVrV9ryjvmcoyQDEl3U_Fn">TVSeries</a>  
-Model files should be located in 'dataset name'/logs/'.
+[['THUMOS-14'](https://drive.google.com/uc?export=download&confirm=8b-Z&id=1DUpOzbLG-8ptpPVJrzsRiKFRIaO1FBcs)]
+[['TVSeries'(https://drive.google.com/uc?export=download&confirm=A33G&id=1zJ7EfhQg91XVrV9ryjvmcoyQDEl3U_Fn)]
+Download trained models in 'dataset name'/logs/'.
 
 
 ## Testing
