@@ -47,23 +47,21 @@ __For TVSeries__
 python tvseries/test.py --feat_type incepv3
 python tvseries/test.py --feat_type anet2016
 ```
-The code provides the results of our IDN, '__mcAP of 86.1%__'.  
 
 __For THUMOS-14__  
 ```
 python thumos14/test.py --feat_type incepv3
 python thumos14/test.py --feat_type anet2016
 ```
-The code provides the results of our IDN, '__mAP of 60.3%__'. 
 
 | Dataset | Feature | mcAP (mAP) | 
 |:--------------:|:--------------:|:--------------:| 
-| C3D |    ResNet18   |    112\*112   |
-| C3D |    ResNet34   |    112\*112   |
-| ARTNet (s) |    ResNet18   |    112\*112   |
-| ARTNet (d) |    ResNet18   |    112\*112   |
-| ARTNet+TSN |    ResNet18   |    112\*112   |
+| TVSeries | incepv3 | **86.1** |
+| TVSeries | anet2016 | 50.0  |
+| THUMOS-14 | incepv3 | **60.37** |
+| THUMOS-14 | anet2016 | 50.09 |
 
+Please refer our paper for more results.
 
 
 ## Citing IDU
