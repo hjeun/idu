@@ -38,7 +38,7 @@ Download our extracted features here. On both [TVSeries](https://homes.esat.kule
 
 
 ### Trained Models
-Download our trained models here and locate in 'dataset name'/logs/'.
+Download our trained models here and locate in '{dataset name}'/models/'.
 
 ## Testing
 
