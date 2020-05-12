@@ -39,7 +39,7 @@ On both [TVSeries](https://homes.esat.kuleuven.be/psi-archive/rdegeest/TVSeries.
 
 
 ### Trained Models
-Download our trained models here. Files should be located in '{dataset name}'/models/'.
+Download our trained models here. Files should be located in '{dataset name}/models/'.
 
 ## Testing
 
