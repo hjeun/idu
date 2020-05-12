@@ -34,7 +34,7 @@ We provide three patch files in the 'patch' folder. Replace original files in te
 The code for training is not included in this repository, and we cannot release the full training code since the research is involved in the project.
 
 ### Input Features
-Download our extracted features here. Files should be located in 'data/'.  
+Download our extracted features [here](https://drive.google.com/drive/folders/1LWMT_SLwstB-Iklb-b1izRrwsPZqB96t?usp=sharing). Files should be located in 'data/'.  
 On both [TVSeries](https://homes.esat.kuleuven.be/psi-archive/rdegeest/TVSeries.html) and [THUMOS-14](https://www.crcv.ucf.edu/THUMOS14/) datasets, we extract video frames at 24 fps and set the number of frames in each chunk N to 6. We use 16 chunks (i.e., T=15), which are 4 seconds long, for the input of IDN. We use a two-stream network as a features extractor. In the two-stream network, one stream encodes appearance information by taking the center frame of a chunk as input, while another stream encodes motion information by processing an optical flow stack computed from an input chunk. Among several two-stream networks, we employ the [TSN models](https://github.com/yjxiong/temporal-segment-networks) pretrained on ActivityNet-v1.3 and Kinetics datasets.
 
 
