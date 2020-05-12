@@ -43,6 +43,14 @@ Download our trained models [here](https://drive.google.com/drive/folders/1s1M8r
 
 ## Testing
 
+| Dataset | Feature | mcAP (mAP) | 
+|:--------------:|:--------------:|:--------------:| 
+| TVSeries | incepv3 | 86.1 |
+| TVSeries | anet2016 | 84.7  |
+| THUMOS-14 | incepv3 | 60.3 |
+| THUMOS-14 | anet2016 | 50.0 |
+*Please refer our paper for more results.
+
 __For TVSeries__  
 ```
 python tvseries/test.py --feat_type incepv3
@@ -55,14 +63,7 @@ python thumos14/test.py --feat_type incepv3
 python thumos14/test.py --feat_type anet2016
 ```
 
-| Dataset | Feature | mcAP (mAP) | 
-|:--------------:|:--------------:|:--------------:| 
-| TVSeries | incepv3 | 86.1 |
-| TVSeries | anet2016 | 84.7  |
-| THUMOS-14 | incepv3 | 60.3 |
-| THUMOS-14 | anet2016 | 50.0 |
 
-Please refer our paper for more results.
 
 
 ## Citing IDU
