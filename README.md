@@ -45,10 +45,10 @@ Download our trained models [here](https://drive.google.com/drive/folders/1s1M8r
 
 | Dataset | Feature | mcAP (mAP) | 
 |:--------------:|:--------------:|:--------------:| 
-| TVSeries | incepv3 | 86.1 |
-| TVSeries | anet2016 | 84.7  |
-| THUMOS-14 | incepv3 | 60.3 |
-| THUMOS-14 | anet2016 | 50.0 |
+| TVSeries | TwoStream-incepv3 | 86.1 |
+| TVSeries | TwoStream-anet2016 | 84.7  |
+| THUMOS-14 | TwoStream-incepv3 | 60.3 |
+| THUMOS-14 | TwoStream-anet2016 | 50.0 |
 
 *Please refer our paper for more results.
 
