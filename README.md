@@ -31,7 +31,7 @@ We provide three patch files in the 'patch' folder. Replace original files in te
 - \_\_init\_\_.py and recurrent.py in 'tensorflow/python/keras/layers'
 
 ## Training
-The code for training is not included in this repository, and we cannot release the full training code since the research is involved in the project.
+The code for training is not included in this repository, and we cannot release the full training code since the research is involved in the project funded.
 
 ### Input Features
 Download our extracted features [here](https://drive.google.com/drive/folders/1LWMT_SLwstB-Iklb-b1izRrwsPZqB96t?usp=sharing). Files should be located in 'data/'.  
